@@ -6,7 +6,6 @@ from unittest.mock import MagicMock
 import requests_mock
 
 import sys
-import os
 # insert into system path to allow the python modules within that folder to be callable
 sys.path.insert(0, 'C:/Users/palmerm/GitHub/dapinder-python-workshop/scripts/logs_processor') ##this line works
 # sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

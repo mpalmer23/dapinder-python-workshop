@@ -43,4 +43,6 @@ if __name__ == "__main__":
 
     notification.send_notification(username = username)
 
-####### COMMAND TO RUN IN TERMINAL TO RUN THIS FILE WITH MYPY TESTING --> "mypy scripts\logs_processor\notification.py"
+####### COMMAND TO RUN IN TERMINAL TO RUN THIS FILE WITH MYPY TESTING (VARIABLE-TYPE-CHECKER) --> "mypy scripts\logs_processor\notification.py"
+####### COMMAND TO RUN IN TERMINAL TO RUN THIS FILE WITH PYLINT TESTING (FORMATTING/GENERAL CODE CHECKER) --> "python -m pipenv run pylint .\scripts\logs_processor\notification.py"
+####### COMMAND TO RUN IN TERMINAL TO RUN THIS FILE WITH PYFLAKES TESTING (FORMATTING/GENERAL CODE CHECKER, BUT GIVES LESS FALSE POSITIVES THAN PYLINT) --> "python -m pipenv run pyflakes .\scripts\logs_processor\notification.py"
