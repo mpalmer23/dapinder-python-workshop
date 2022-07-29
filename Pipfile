@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
+mypy = "*"
+requests-mock = "*"
 
 [dev-packages]
 diagrams = "==0.20.0"
